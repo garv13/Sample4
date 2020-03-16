@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -9,10 +10,10 @@ namespace Sample4.Models
     {
         public const string DatabaseFilename = "TodoSQLite.db3";
 
-        public const SQLite.SQLiteOpenFlags Flags =
-            SQLite.SQLiteOpenFlags.ReadWrite |
-            SQLite.SQLiteOpenFlags.Create |
-            SQLite.SQLiteOpenFlags.SharedCache;
+        public const SQLiteOpenFlags Flags =
+            SQLiteOpenFlags.ReadWrite |
+            SQLiteOpenFlags.Create |
+            SQLiteOpenFlags.SharedCache;
         public static string DatabasePath
         {
             get
