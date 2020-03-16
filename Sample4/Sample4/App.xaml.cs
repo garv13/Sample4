@@ -10,7 +10,7 @@ namespace Sample4
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.LogIn());
         }
 
         protected override void OnStart()
