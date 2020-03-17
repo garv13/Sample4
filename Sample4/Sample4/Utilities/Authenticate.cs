@@ -47,7 +47,7 @@ namespace Sample4.Utilities
                 User u = await GetUser(user);
                 if (u == null)
                 {
-                    await firebase.Child("Users").PostAsync(user);
+                    await firebase.Child("Users").PostAsync(user.Username);
                     return true;
                 }
                 else

@@ -5,9 +5,9 @@ using Sample4.Models;
 
 namespace Sample4.ViewModels
 {
-    class MessageViewModel
+    public class MessageViewModel
     {
-        MessageViewModel(Message m)
+        public MessageViewModel(Message m)
         { 
         
         }
