@@ -1,0 +1,7 @@
+https://xamarinlatino.com/xamarin-forms-firebase-cloud-messaging-ios-setup-1961a91d4055
+
+https://xamarinlatino.com/xamarin-forms-firebase-cloud-messaging-ios-setup-1961a91d4055
+
+https://firebase.google.com/docs/cloud-messaging/android/device-group
+
+https://docs.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/remote-notifications-with-fcm?tabs=windows

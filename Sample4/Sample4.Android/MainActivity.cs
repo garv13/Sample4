@@ -1,5 +1,8 @@
 ﻿using System;
-
+using Android.Gms.Common;
+using Firebase.Messaging;
+using Firebase.Iid;
+using Android.Util;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
