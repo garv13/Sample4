@@ -9,6 +9,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms;
 
 namespace Sample4.Droid
 {
@@ -82,6 +83,7 @@ namespace Sample4.Droid
                 // channel on older versions of Android.
                 return;
             }
+            FirebaseMessaging.Instance.SubscribeToTopic("lolData");
 
             var channel = new NotificationChannel(CHANNEL_ID,
                                                   "FCM Notifications",
